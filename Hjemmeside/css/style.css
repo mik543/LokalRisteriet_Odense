@@ -1,3 +1,66 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Frontpage start */
+.backimg{
+	background-image: url("../img/Backimg.png");
+	background-size: ;
+	background-repeat: no-repeat;
+}
+
+.logo-front{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 60px;
+	
+}
+.title{
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	margin-top: 100px;
+	font-family: Classico URW;
+}
+.undertitle{
+	text-align: center;
+	color: white;
+	font-size: 70px;
+	margin-top: 30px;
+	font-family: Classico URW;
+}
+/* Frontpage end */
+
+/* Various text start */
+.topic{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 400px;
+	font-family: Classico URW;
+}
+.standard-text{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 30px;
+	font-family: Classico URW;
+		
+}
+/* Various text end */
+
+.topnavigation{
+	overflow: hidden;
+}
+.topnavigation a{
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	padding: 14px 16px;
+	margin-right: 50px;
+	font-family: Classico URW;
+}
+.topnavigation a.active{
+	float: left;
+	margin-left: 70px;
+}
