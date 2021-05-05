@@ -79,15 +79,19 @@ body {
 
 .about-section {
 	display: flex;
-	align-items: center;
-	padding: 30px;
-	margin: 30px;
+	align-items: top;
+	padding: 2%;
+	justify-content: space-between;
+	position: center;
 }
 
 .about-text {
-	margin: 30px;
-	width: 50%;
+	margin: 3%;
 }
 
-.about-section img {
+.about-img {
+	margin: 3%;
+	width: 50%;
+	height: 300px;
+
 }
