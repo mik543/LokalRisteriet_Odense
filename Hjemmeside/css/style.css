@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.body {
+body {
 }
 
 /* Frontpage start */
@@ -60,7 +60,7 @@
 	font-size: 25px;
 	padding: 14px 16px;
 	margin-right: 50px;
-	font-family: Classico URW;
+	font-family: classico-urw, sans-serif;
 }
 .topnavigation a.active{
 	float: left;
@@ -75,4 +75,19 @@
 	height: 50vh;
 	padding: 0;
 	margin: 0;
+}
+
+.about-section {
+	display: flex;
+	align-items: center;
+	padding: 30px;
+	margin: 30px;
+}
+
+.about-text {
+	margin: 30px;
+	width: 50%;
+}
+
+.about-section img {
 }
