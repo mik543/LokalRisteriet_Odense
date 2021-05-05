@@ -8,14 +8,6 @@
 	background-repeat: no-repeat;
 }
 
-/* Header image  */
-.backimg2{
-	background-image: url("../img/coffeebeans.png");
-	background-size:;
-	height: 10%;
-	background-repeat: no-repeat;
-}
-
 .logo-front{
 	display: block;
   	margin-left: auto;
@@ -71,4 +63,31 @@
 .topnavigation a.active{
 	float: left;
 	margin-left: 70px;
+}
+
+/* Om lokalristeriet*/
+/* Header image*/
+.header-image img{
+	object-fit: cover;
+	width: 100%;
+	height: 50vh;
+}
+
+.about-section {
+	display: flex;
+
+
+}
+
+.about-text {
+	width: 50%;
+
+}
+
+.about-image {
+}
+
+.about-image img{
+	width: 50vh;
+
 }
