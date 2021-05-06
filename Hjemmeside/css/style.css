@@ -19,7 +19,7 @@ margin: 0;
   	margin-left: auto;
   	margin-right: auto;
 	margin-top: 60px;
-	
+
 }
 .title{
 	text-align: center;
@@ -48,7 +48,7 @@ margin: 0;
 	font-size: 25px;
 	margin-top: 30px;
 	font-family: Classico URW;
-		
+
 }
 /* Various text end */
 
@@ -63,17 +63,12 @@ margin: 0;
 	font-size: 25px;
 	padding: 14px 16px;
 	margin-right: 50px;
-<<<<<<< HEAD
 	font-family: Classico, sans-serif;
-=======
-	font-family: Classico URW;
->>>>>>> 9afe9d00ea60208e50e0951b39cb6f7b3d4270d3
 }
 .topnavigation a.active{
 	float: left;
 	margin-left: 70px;
 }
-<<<<<<< HEAD
 
 /* Om lokalristeriet*/
 /* Header image*/
@@ -108,9 +103,10 @@ margin: 0;
 }
 
 .about-img {
-=======
+}
+
 .coffeebutton {
-	display: block; 
+	display: block;
 	width: 10%;
   	background-color: #3F2E29;
   	border: none;
@@ -140,6 +136,5 @@ margin: 0;
 	display: grid;
 	grid-template-columns: auto auto;
 	padding: 30px;
->>>>>>> 9afe9d00ea60208e50e0951b39cb6f7b3d4270d3
 }
 /*Footer End */
