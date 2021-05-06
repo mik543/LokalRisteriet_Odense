@@ -118,6 +118,17 @@ font-family: classico-urw, sans-serif;
 	line-height: 1.5;
 }
 
+.fokuspunkt {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+ 	flex-direction: row;
+
+}
+
+.fokuspunkt .img{
+}
+
 .value-section .fokuspunkter {
 	display: flex;
  	flex-direction: row;
@@ -127,6 +138,7 @@ font-family: classico-urw, sans-serif;
 	padding-left: 130px;
 	padding-right: 130px;
 }
+
 
 .coffeebutton {
 	display: block;
@@ -153,7 +165,7 @@ font-family: classico-urw, sans-serif;
 	height: 700px ;
    	color: white;
    	text-align: center;
-	margin-top: 100px;
+		margin-top: 100px;
 }
 .footer-container{
 	display: grid;
