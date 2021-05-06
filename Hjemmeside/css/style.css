@@ -163,6 +163,8 @@ font-family: classico-urw, sans-serif;
 	line-height: 1.5;
 	padding-left: 130px;
 	padding-right: 130px;
+	padding-top: 10px;
+
 }
 
 .economy-text {
@@ -178,6 +180,7 @@ font-family: classico-urw, sans-serif;
 /* Vores risterier*/
 .vores-risterier {
 	text-align: center;
+	padding-top: 60px;
 }
 .risteri {
 	justify-content: space-between;
@@ -191,6 +194,7 @@ font-family: classico-urw, sans-serif;
 /* Leverandører til */
 .leverandoer {
 	text-align: center;
+	padding-top: 60px;
 }
 .leverandoer-img {
 	justify-content: space-between;
