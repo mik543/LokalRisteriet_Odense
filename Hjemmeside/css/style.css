@@ -161,7 +161,8 @@ font-family: classico-urw, sans-serif;
  	flex-direction: row;
  	font-size: 18px;
 	line-height: 1.5;
-	padding: 130px;
+	padding-left: 130px;
+	padding-right: 130px;
 }
 
 .economy-text {
@@ -179,6 +180,19 @@ font-family: classico-urw, sans-serif;
 	text-align: center;
 }
 .risteri {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+ 	flex-direction: row;
+	padding-left: 130px;
+	padding-right: 130px;
+}
+
+/* Leverandører til */
+.leverandoer {
+	text-align: center;
+}
+.leverandoer-img {
 	justify-content: space-between;
 	align-items: center;
 	display: flex;
