@@ -95,14 +95,21 @@ margin: 0;
  	flex-direction: row;
  	font-size: 18px;
 	line-height: 1.5;
-	padding: 100px;
+	padding: 130px;
+	font-family: classico-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #494949;
 }
 
 .about-text {
-
+	margin-right: 30px;
 }
 
 .about-img {
+	margin-left: 30px;
+	height: 400px;
+  width: 50%;
 
 }
 
