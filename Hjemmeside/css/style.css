@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 body {
+padding: 0;
+margin: 0;
 }
 
 /* Frontpage start */
@@ -60,7 +62,7 @@ body {
 	font-size: 25px;
 	padding: 14px 16px;
 	margin-right: 50px;
-	font-family: classico-urw, sans-serif;
+	font-family: Classico, sans-serif;
 }
 .topnavigation a.active{
 	float: left;
@@ -69,29 +71,35 @@ body {
 
 /* Om lokalristeriet*/
 /* Header image*/
-.header-image img{
-	object-fit: cover;
-	width: 100%;
+.header-image {
+	background-image: url("../img/coffee.png");
 	height: 50vh;
-	padding: 0;
-	margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.header-text{
+	text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .about-section {
 	display: flex;
 	align-items: top;
-	padding: 2%;
 	justify-content: space-between;
-	position: center;
 }
 
 .about-text {
-	margin: 3%;
+	width: 90%;
+	margin: 30px;
+
 }
 
 .about-img {
-	margin: 3%;
-	width: 50%;
-	height: 300px;
-
 }
