@@ -123,11 +123,8 @@ font-family: classico-urw, sans-serif;
 	align-items: center;
 	display: flex;
  	flex-direction: row;
-
 }
 
-.fokuspunkt .img{
-}
 
 .value-section .fokuspunkter {
 	display: flex;
@@ -177,6 +174,15 @@ font-family: classico-urw, sans-serif;
   width: 50%;
 }
 
+/* Vores risterier*/
+.risteri {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+ 	flex-direction: row;
+	padding-left: 130px;
+	padding-right: 130px;
+}
 
 .coffeebutton {
 	display: block;
