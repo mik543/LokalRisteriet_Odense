@@ -139,6 +139,44 @@ font-family: classico-urw, sans-serif;
 	padding-right: 130px;
 }
 
+/* Vores historie sektion*/
+.historie-section {
+	display: flex;
+ 	flex-direction: row;
+ 	font-size: 18px;
+	line-height: 1.5;
+	padding: 130px;
+}
+
+.historie-text {
+	margin-right: 30px;
+}
+
+.historie-img {
+	margin-left: 30px;
+	height: 400px;
+  width: 50%;
+}
+
+/* Økonomi og bæredygtighed */
+.economy-section {
+	display: flex;
+ 	flex-direction: row;
+ 	font-size: 18px;
+	line-height: 1.5;
+	padding: 130px;
+}
+
+.economy-text {
+	margin-left: 30px;
+}
+
+.economy-img {
+	margin-right: 30px;
+	height: 400px;
+  width: 50%;
+}
+
 
 .coffeebutton {
 	display: block;
