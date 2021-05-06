@@ -175,6 +175,9 @@ font-family: classico-urw, sans-serif;
 }
 
 /* Vores risterier*/
+.vores-risterier {
+	text-align: center;
+}
 .risteri {
 	justify-content: space-between;
 	align-items: center;
