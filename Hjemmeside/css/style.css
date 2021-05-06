@@ -92,17 +92,18 @@ margin: 0;
 
 .about-section {
 	display: flex;
-	align-items: top;
-	justify-content: space-between;
+ 	flex-direction: row;
+ 	font-size: 18px;
+	line-height: 1.5;
+	padding: 100px;
 }
 
 .about-text {
-	width: 90%;
-	margin: 30px;
 
 }
 
 .about-img {
+
 }
 
 .coffeebutton {
