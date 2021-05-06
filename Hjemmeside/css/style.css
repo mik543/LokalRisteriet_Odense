@@ -126,12 +126,11 @@ font-family: classico-urw, sans-serif;
 }
 
 
-.value-section .fokuspunkter {
+.value-section .fokuspunkt {
 	display: flex;
  	flex-direction: row;
  	font-size: 18px;
 	line-height: 1.5;
-	padding-top: 130px;
 	padding-left: 130px;
 	padding-right: 130px;
 }
