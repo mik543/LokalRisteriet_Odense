@@ -1,12 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-<<<<<<< HEAD
 body {
 padding: 0;
 margin: 0;
+font-family: classico-urw, sans-serif;
+
 }
-=======
->>>>>>> 9afe9d00ea60208e50e0951b39cb6f7b3d4270d3
 
 /* Frontpage start */
 .backimg{
@@ -90,16 +89,13 @@ margin: 0;
   color: white;
 }
 
+/* Om Lokalristeriet */
 .about-section {
 	display: flex;
  	flex-direction: row;
  	font-size: 18px;
 	line-height: 1.5;
 	padding: 130px;
-	font-family: classico-urw, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	color: #494949;
 }
 
 .about-text {
@@ -110,7 +106,26 @@ margin: 0;
 	margin-left: 30px;
 	height: 400px;
   width: 50%;
+}
 
+/* Vores fokuspunkter */
+.value-section {
+	padding-bottom: 30px;
+	text-align: center;
+	padding-left: 130px;
+	padding-right: 130px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.value-section .fokuspunkter {
+	display: flex;
+ 	flex-direction: row;
+ 	font-size: 18px;
+	line-height: 1.5;
+	padding-top: 130px;
+	padding-left: 130px;
+	padding-right: 130px;
 }
 
 .coffeebutton {
