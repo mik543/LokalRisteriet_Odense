@@ -203,6 +203,44 @@ font-family: classico-urw, sans-serif;
 	padding-left: 130px;
 	padding-right: 130px;
 }
+/* Om Lokalristeriet slut*/
+
+/*Produktside)*/
+.products {
+}
+
+.column {
+	float: left;
+	width: 20%;
+	padding: 20px;
+}
+
+.row {0 -5px;}
+
+.product-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	text-align: center;
+	background-color: #f1f1f1;
+}
+
+.button {
+	width: 150px;
+  height: 40px;
+  background-color: #3F2E29;
+  border: 1px solid white;
+  outline: 3px solid #3F2E29;
+	color: white;
+}
+
+.button:hover {
+	opacity: 0.9
+}
+
+
+
+
+	/*Produktside slut*/
 
 .coffeebutton {
 	display: block;
