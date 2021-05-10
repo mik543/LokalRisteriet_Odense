@@ -206,7 +206,9 @@ font-family: classico-urw, sans-serif;
 /* Om Lokalristeriet slut*/
 
 /*Produktside)*/
-.products {
+.products h1 {
+	text-align: center;
+	padding-top: 50px;
 }
 
 .column {
@@ -219,18 +221,19 @@ font-family: classico-urw, sans-serif;
 
 .product-card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 20px;
+	padding: 25px;
 	text-align: center;
 	background-color: #f1f1f1;
 }
 
 .button {
-	width: 150px;
+	width: 120px;
   height: 40px;
   background-color: #3F2E29;
   border: 1px solid white;
   outline: 3px solid #3F2E29;
 	color: white;
+	margin: 10px;
 }
 
 .button:hover {
