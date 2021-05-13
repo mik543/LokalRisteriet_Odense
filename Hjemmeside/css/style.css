@@ -275,7 +275,7 @@ font-family: classico-urw, sans-serif;
   user-select: none;
 }
 
-/* Hide the browser's default checkbox */
+/* Hide default checkbox */
 .filter-container input {
   position: absolute;
   opacity: 0;
@@ -293,7 +293,8 @@ font-family: classico-urw, sans-serif;
   width: 25px;
   background-color: white;
 	border-radius:1px;
-	border-color: black;
+	border: solid 0.1px;
+	border-color: #3F2E29;
 }
 
 /* Hover checkbox */
