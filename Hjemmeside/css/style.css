@@ -261,7 +261,7 @@ font-family: classico-urw, sans-serif;
 .button:hover {
 	opacity: 0.9
 }
-/*Filter sektion*/
+/*Filter section*/
 .filter-container {
   display: block;
   position: relative;
@@ -284,40 +284,41 @@ font-family: classico-urw, sans-serif;
   width: 0;
 }
 
-/* Create a custom checkbox */
-.filter-checkmark {
+/*Create a custom checkbox */
+.checkmark {
   position: absolute;
   top: 0;
   left: 0;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   background-color: white;
-	border: solid 0.3px;
+	border-radius:1px;
+	border-color: black;
 }
 
-/* On mouse-over, add a grey background color */
+/* Hover checkbox */
 .filter-container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: white;
 }
 
 /* Background for checkmark*/
 .filter-container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #3F2E29;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
-.filter-checkmark:after {
+/* Create checkmark*/
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the checkmark when checked */
+/* Show checkmark */
 .filter-container input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the checkmark/indicator */
+/* Style checkmark*/
 .filter-container .checkmark:after {
   left: 9px;
   top: 5px;
@@ -331,8 +332,7 @@ font-family: classico-urw, sans-serif;
 }
 /*Slut Filtersektion*/
 
-
-/*Produktside slut*/
+/*PRODUKTSIDE slut*/
 
 .coffeebutton {
 	display: block;
