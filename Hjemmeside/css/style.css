@@ -205,10 +205,33 @@ font-family: classico-urw, sans-serif;
 }
 /* Om Lokalristeriet slut*/
 
-/*Produktside)*/
+/*Produktside*/
+
+.sidebar {
+	margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+	position: absolute;
+  overflow: auto;
+	text-align: left;
+	padding-top: 40px;
+	padding-left: 75px;
+}
+
+
+.sidebar p{
+	font-size: ;
+}
+
+.products {
+	margin-left: 350px;
+ 	padding: 1px 16px;
+	height:
+}
 .products h1 {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 .column {
