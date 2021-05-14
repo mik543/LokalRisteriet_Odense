@@ -236,7 +236,8 @@ font-family: classico-urw, sans-serif;
 .column {
 	float: left;
 	width: 20%;
-	padding: 20px;
+	padding: 30px;
+	align-items: center;
 }
 
 .row {0 -5px;}
@@ -245,7 +246,11 @@ font-family: classico-urw, sans-serif;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 25px;
 	text-align: center;
-	background-color: #f1f1f1;
+	background-color: white;
+}
+
+.product-card p{
+	text-align: left;
 }
 
 .button {
