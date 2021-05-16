@@ -34,7 +34,14 @@ font-family: classico-urw, sans-serif;
 	margin-top: 30px;
 	font-family: Classico URW;
 }
+.l-container{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	font-family: Classico URW;
+}
 /* Frontpage end */
+
 
 /* Various text start */
 .topic{
@@ -370,6 +377,7 @@ font-family: classico-urw, sans-serif;
 .footer-container{
 	display: grid;
 	grid-template-columns: auto auto;
+	font-family: Classico URW;
 	padding: 30px;
 }
 /*Footer End */
@@ -412,3 +420,34 @@ input[type=submit]:hover {
 
 
 /* Kontakt slut */
+
+/* Månedens Kaffe start */
+
+.m-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 50px;
+}
+.m-container2{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.m1{
+	display: block;
+	width: 50%;
+	height: auto;
+}
+.m2-image{
+	width: 50%;
+	height: auto;
+}
+.method-1{
+	width:300px;
+  	height:200px;
+  	box-shadow:3px 3px 10px 3px grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+
+/* Månedens Kaffe slut */
