@@ -4,7 +4,46 @@ body {
 padding: 0;
 margin: 0;
 font-family: classico-urw, sans-serif;
+}
 
+/*TOPNAV*/
+.topnav {
+overflow: hidden;
+margin-left: auto;
+margin-right: auto;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	padding: 16px 14px;
+	text-decoration: none;
+	font-size: 22px;
+	padding-top: 45px;
+}
+
+.menupunkter {
+	padding-top: 32px;
+}
+
+.topnav a:hover {
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+.topnav a:active {
+text-decoration: underline;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav img {
+	height: 90px;
+	padding-top: -45px;
+	padding-left: 130px;
 }
 
 /* Frontpage start */
