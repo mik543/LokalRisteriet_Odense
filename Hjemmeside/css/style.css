@@ -73,7 +73,14 @@ text-decoration: underline;
 	margin-top: 30px;
 	font-family: Classico URW;
 }
+.l-container{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	font-family: Classico URW;
+}
 /* Frontpage end */
+
 
 /* Various text start */
 .topic{
@@ -409,6 +416,77 @@ text-decoration: underline;
 .footer-container{
 	display: grid;
 	grid-template-columns: auto auto;
+	font-family: Classico URW;
 	padding: 30px;
 }
 /*Footer End */
+
+/* Kontakt start */
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #3F2E29;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-family: Classico URW;
+}
+
+
+/* Kontakt slut */
+
+/* Månedens Kaffe start */
+
+.m-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 50px;
+}
+.m-container2{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.m1{
+	display: block;
+	width: 50%;
+	height: auto;
+}
+.m2-image{
+	width: 50%;
+	height: auto;
+}
+.method-1{
+	width:300px;
+  	height:200px;
+  	box-shadow:3px 3px 10px 3px grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+
+/* Månedens Kaffe slut */
