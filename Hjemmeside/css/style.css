@@ -25,12 +25,11 @@ font-family: classico-urw, sans-serif;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
-	padding-top: 40px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: white;
+	opacity: 80%;
 }
 
 .topnav a.active {
@@ -64,6 +63,7 @@ font-family: classico-urw, sans-serif;
     text-align: left;
   }
 }
+
 /*END TOPNAV*/
 
 /* Frontpage start */
