@@ -154,6 +154,8 @@ font-family: classico-urw, sans-serif;
   float: left;
   width: 50%;
   padding: 10px;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 .about-img {
   width:50%;
@@ -207,7 +209,7 @@ clear: both;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 10px;
-	padding: 10px;
+	padding: 130px;
 }
 
 .value-items {
@@ -217,7 +219,12 @@ clear: both;
   font-size: 30px;
 }
 @media screen and (max-width: 600px) {
-
+.grid-container {
+  	display: grid;
+  	grid-template-columns: auto auto auto;
+  	grid-gap: 10px;
+  	padding: 30px;
+  }
 .value-items {
   grid-template-columns: auto auto auto;
   display: block;
@@ -251,7 +258,12 @@ clear: both;
 	padding-left: 130px;
 	padding-right: 130px;
 }
-
+@media screen and (max-width: 600px) {
+  {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 
 /* Vores risterier */
 .vores-risterier {
