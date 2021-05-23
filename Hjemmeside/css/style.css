@@ -291,6 +291,52 @@ clear: both;
 	display: flex;
  	flex-direction: row;
 }
+
+@media screen and (max-width: 600px) {
+.shop-container {
+  	display: grid;
+  	grid-template-columns: auto auto;
+  	grid-gap: 10px;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+.value-item {
+  grid-template-columns: auto auto auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.value-item img{
+  width: 100px;
+}
+}
+/*START FOOTER*/
+.footer-end {
+  background-repeat: no-repeat;
+  background-size: cover;
+	position: relative;
+  height: 40vh;
+  box-sizing: border-box;
+  padding: 30px;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/footer-img.png");
+}
+
+@media screen and (max-width: 600px) {
+  .footer-end {
+    background-repeat: no-repeat;
+    background-size: cover;
+  	position: center;
+    height: 60vh;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.5);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/footer-img.png");
+
+  }
+}
 /* END OM LOKALRISTERIET */
 
 /*PRODUKTSIDE*/
