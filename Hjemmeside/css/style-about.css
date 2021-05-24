@@ -12,6 +12,7 @@ font-family: classico-urw, sans-serif;
   width: 80vw;
   margin: 0 auto;
   margin-top: 4rem;
+  font-size: 1rem;
 }
 
 .page-content h1 {
@@ -59,7 +60,7 @@ font-family: classico-urw, sans-serif;
   }
 }
 
-/*VORES FOKUSPUNKTER sektion*/
+/*VORES FOKUSPUNKTER*/
 .grid-container {
   display: flex;
   clear: both;
@@ -77,15 +78,12 @@ font-family: classico-urw, sans-serif;
 
 .value-item img {
   align-items: center;
-
 }
 
 @media screen and (max-width: 600px) {
 .grid-container {
   	display: grid;
   	grid-template-columns: auto auto auto;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
     padding: 0;
   }
@@ -182,4 +180,53 @@ h3 {
     width: 100%;
     margin: 7px;
   }
+}
+
+/*VORES RISTERIER*/
+.grid2-container {
+  display: flex;
+  clear: both;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px 0 80px 0;
+}
+
+.value2-item {
+  width: 30%;
+  margin: 0 1vw;
+  box-sizing: border-box;
+}
+
+.value2-item img {
+  align-items: center;
+}
+
+.value2-item h3 {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+.grid2-container {
+  	display: grid;
+  	grid-template-columns: auto auto;
+    width: 100%;
+    padding: 0;
+  }
+
+.value2-item {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.value2-item img {
+width: 100%;
+}
+h3 {
+  font-size: 15px;
+  text-align: center;
+}
 }
