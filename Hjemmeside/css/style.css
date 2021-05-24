@@ -154,78 +154,10 @@ font-family: classico-urw, sans-serif;
     object-fit: cover;
   }
 
-  .grid-container {
-    grid-template-columns: auto auto;
-  }
 
-  .about-img{
-    display: block;
-    margin: 0 auto;
-  }
-}
 
-/*Værdi sektion*/
-.grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-gap: 10px;
-}
 
-.value-text{
 
-}
-
-.value-items {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  align-items: center;
-}
-
-@media screen and (max-width: 600px) {
-.grid-container {
-  	display: grid;
-  	grid-template-columns: auto auto auto;
-  	grid-gap: 10px;
-  	padding: 30px;
-  }
-.value-items {
-  grid-template-columns: auto auto auto;
-  display: block;
-  margin: 0 auto;
-}
-}
-
-/* Vores fokuspunkter */
-.value-section {
-	padding-bottom: 30px;
-	text-align: center;
-	font-size: 18px;
-	line-height: 1.5;
-}
-
-.fokuspunkt {
-	justify-content: space-between;
-	align-items: center;
-	display: flex;
- 	flex-direction: row;
-
-}
-
-.value-section .fokuspunkt {
-	display: flex;
- 	flex-direction: row;
- 	font-size: 18px;
-	line-height: 1.5;
-}
-
-@media screen and (max-width: 600px) {
-  {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
 
 /* Vores risterier */
 .vores-risterier {

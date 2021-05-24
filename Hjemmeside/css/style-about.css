@@ -18,6 +18,8 @@ font-family: classico-urw, sans-serif;
   text-align: center;
 }
 
+/*OM SEKTION*/
+
 .about-column {
   float: left;
   width: 60%;
@@ -26,38 +28,108 @@ font-family: classico-urw, sans-serif;
 }
 
 .about-row {
-  content: "";
-  display: table;
-  clear: both;
-  flex-direction: column;
   padding: 30px 0 80px 0;
 }
 
-.about-row {
-  display: flex;
-}
-
-.about-column {
-  flex: 50%;
+.about-row:after {
+  content:"";
+  display: table;
+  clear: both;
 }
 
 .about-img {
   width:40%;
   float: left;
   object-fit: cover;
-}
-
-.about-column h1{
-  text-align: center;
-}
-
-.about-column img{
-  width: 90%;
-  justify-content: center;
-  padding-top: 20px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
   .page-content {
-    width: 100vw;
+    width: 90vw;
   }
+
+  .about-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about-img {
+    width: 100%;
+    margin: 7px;
+  }
+}
+
+/*VORES FOKUSPUNKTER sektion*/
+.grid-container {
+  display: flex;
+  clear: both;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.value-item {
+  width: 20%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.value-item img {
+  align-items: center;
+
+}
+
+@media screen and (max-width: 600px) {
+.grid-container {
+  	display: grid;
+  	grid-template-columns: auto auto auto;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.value-item {
+  grid-template-columns: auto auto auto;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 15px;
+  text-align: center;
+}
+}
+
+/* Vores fokuspunkter
+.value-section {
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.fokuspunkt {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+ 	flex-direction: row;
+
+}
+
+.value-section .fokuspunkt {
+	display: flex;
+ 	flex-direction: row;
+ 	font-size: 18px;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+  {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
