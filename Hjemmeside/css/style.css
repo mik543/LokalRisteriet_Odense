@@ -173,41 +173,7 @@ font-family: classico-urw, sans-serif;
 	flex-wrap: wrap;
 }
 
-/* Leverandører til */
-.leverandoer {
-	text-align: center;
-	padding-top: 60px;
-}
-.leverandoer-img {
-	justify-content: space-between;
-	align-items: center;
-	display: flex;
- 	flex-direction: row;
-}
-
-@media screen and (max-width: 600px) {
-.shop-container {
-  	display: grid;
-  	grid-template-columns: auto auto;
-  	grid-gap: 10px;
-    width: 100vw;
-    box-sizing: border-box;
-    padding: 30px;
-  }
-
-.value-item {
-  grid-template-columns: auto auto auto;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-
-}
-
-.value-item img{
-  width: 100px;
-}
-}
-/*START FOOTER*/
+/*START FOOTER
 .footer-row {
   display: flex;
   background-repeat: no-repeat;
@@ -243,7 +209,7 @@ font-family: classico-urw, sans-serif;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/footer-img.png");
 
   }
-}
+}*/
 /* END OM LOKALRISTERIET */
 
 /*PRODUKTSIDE*/
