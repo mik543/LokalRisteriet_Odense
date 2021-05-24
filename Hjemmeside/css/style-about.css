@@ -19,7 +19,6 @@ font-family: classico-urw, sans-serif;
 }
 
 /*OM SEKTION*/
-
 .about-column {
   float: left;
   width: 60%;
@@ -67,6 +66,7 @@ font-family: classico-urw, sans-serif;
   width: 100%;
   justify-content: center;
   margin: 0 auto;
+  padding: 30px 0 80px 0;
 }
 
 .value-item {
@@ -87,6 +87,7 @@ font-family: classico-urw, sans-serif;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    padding: 0;
   }
 
 .value-item {
@@ -104,32 +105,81 @@ h3 {
 }
 }
 
-/* Vores fokuspunkter
-.value-section {
-	padding-bottom: 30px;
-	text-align: center;
-	font-size: 18px;
-	line-height: 1.5;
+/*VORES HISTORIE*/
+.history-column {
+  float: left;
+  width: 80%;
+  padding: 30px;
+  box-sizing: border-box;
 }
 
-.fokuspunkt {
-	justify-content: space-between;
-	align-items: center;
-	display: flex;
- 	flex-direction: row;
-
+.history-row {
+  padding: 30px 0 80px 0;
 }
 
-.value-section .fokuspunkt {
-	display: flex;
- 	flex-direction: row;
- 	font-size: 18px;
-	line-height: 1.5;
+.history-row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.history-img {
+  float: left;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.economy-img {
+  float: left;
+  object-fit: cover;
+  box-sizing: border-box;
+
 }
 
 @media screen and (max-width: 600px) {
-  {
-    padding-left: 30px;
-    padding-right: 30px;
+  .history-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .history-img {
+    width: 100%;
+    margin: 7px;
+  }
+}
+
+/*ØKONOMI OG BÆREDYGTIGHED*/
+.economy-column {
+  float: left;
+  width: 70%;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.economy-row {
+  padding: 30px 0 80px 0;
+}
+
+.economy-row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.economy-img {
+  float: left;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .economy-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .economy-img {
+    width: 100%;
+    margin: 7px;
   }
 }
