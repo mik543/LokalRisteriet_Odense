@@ -147,48 +147,8 @@ font-family: classico-urw, sans-serif;
 	margin-left: 70px;
 }
 
-
 /* START OM LOKALRISTERIET*/
 /*Om sektion*/
-.about-column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  padding-left: 130px;
-  padding-right: 130px;
-}
-.about-img {
-  width:50%;
-  float: left;
-}
-
-.about-row:after{
-content:"";
-display: table;
-clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .about-column {
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    padding-left: 30px;
-    padding-right: 30px;
-    align-items: center;
-
-  }
-
-  .about-column h1{
-    text-align: center;
-  }
-
-  .about-column img{
-    width: 90%;
-		justify-content: center;
-		padding-top: 20px;
-  }
-
 
   .header-image {
     object-fit: cover;
@@ -209,7 +169,10 @@ clear: both;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 10px;
-	padding: 130px;
+}
+
+.value-text{
+
 }
 
 .value-items {
@@ -217,7 +180,9 @@ clear: both;
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  align-items: center;
 }
+
 @media screen and (max-width: 600px) {
 .grid-container {
   	display: grid;
@@ -236,8 +201,6 @@ clear: both;
 .value-section {
 	padding-bottom: 30px;
 	text-align: center;
-	padding-left: 130px;
-	padding-right: 130px;
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -247,17 +210,16 @@ clear: both;
 	align-items: center;
 	display: flex;
  	flex-direction: row;
-}
 
+}
 
 .value-section .fokuspunkt {
 	display: flex;
  	flex-direction: row;
  	font-size: 18px;
 	line-height: 1.5;
-	padding-left: 130px;
-	padding-right: 130px;
 }
+
 @media screen and (max-width: 600px) {
   {
     padding-left: 30px;
@@ -269,6 +231,7 @@ clear: both;
 .vores-risterier {
 	text-align: center;
 	padding-top: 60px;
+
 }
 .risteri {
 	justify-content: space-between;
@@ -276,8 +239,6 @@ clear: both;
 	display: flex;
  	flex-direction: row;
 	flex-wrap: wrap;
-	padding-left: 130px;
-	padding-right: 130px;
 }
 
 /* Leverandører til */
@@ -301,11 +262,13 @@ clear: both;
     box-sizing: border-box;
     padding: 30px;
   }
+
 .value-item {
   grid-template-columns: auto auto auto;
   display: block;
   margin: 0 auto;
   text-align: center;
+
 }
 
 .value-item img{
@@ -313,7 +276,8 @@ clear: both;
 }
 }
 /*START FOOTER*/
-.footer-end {
+.footer-row {
+  display: flex;
   background-repeat: no-repeat;
   background-size: cover;
 	position: relative;
@@ -323,6 +287,17 @@ clear: both;
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/footer-img.png");
 }
+
+.footer-column {
+  float: left;
+  flex: 1;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+.footer-column{
+  width: 100%;
+  }}
 
 @media screen and (max-width: 600px) {
   .footer-end {
