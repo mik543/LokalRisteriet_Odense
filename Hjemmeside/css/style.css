@@ -37,7 +37,12 @@ font-family: classico-urw, sans-serif;
 	font-size: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
+  .topnav: {
+    background-color: #3F2E29;
+    height: 100%;
+  }
+
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -45,7 +50,7 @@ font-family: classico-urw, sans-serif;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -58,6 +63,7 @@ font-family: classico-urw, sans-serif;
     text-align: left;
   }
 }
+
 /* Header Image*/
 .header-image {
 	background-image: url("../img/coffee.png");
@@ -153,64 +159,6 @@ font-family: classico-urw, sans-serif;
   .header-image {
     object-fit: cover;
   }
-
-
-
-
-
-
-/* Vores risterier */
-.vores-risterier {
-	text-align: center;
-	padding-top: 60px;
-
-}
-.risteri {
-	justify-content: space-between;
-	align-items: center;
-	display: flex;
- 	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-/*START FOOTER
-.footer-row {
-  display: flex;
-  background-repeat: no-repeat;
-  background-size: cover;
-	position: relative;
-  height: 40vh;
-  box-sizing: border-box;
-  padding: 30px;
-  color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/footer-img.png");
-}
-
-.footer-column {
-  float: left;
-  flex: 1;
-  padding: 10px;
-}
-
-@media screen and (max-width: 600px) {
-.footer-column{
-  width: 100%;
-  }}
-
-@media screen and (max-width: 600px) {
-  .footer-end {
-    background-repeat: no-repeat;
-    background-size: cover;
-  	position: center;
-    height: 60vh;
-    box-sizing: border-box;
-    padding: 30px;
-    background-color: rgba(0,0,0,0.5);
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/footer-img.png");
-
-  }
-}*/
-/* END OM LOKALRISTERIET */
 
 /*PRODUKTSIDE*/
 .sidebar {
