@@ -379,7 +379,8 @@ input[type=submit]:hover {
 }
 .m-container2{
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	margin-left: 30%;
+	grid-template-columns: auto auto;
 }
 .m1{
 	display: block;
