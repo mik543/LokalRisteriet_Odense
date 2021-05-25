@@ -39,15 +39,33 @@ Vi slowroaster og i små portioner, så vores kaffe er altid helt friskristet.
 		Hvordan Brygger du din kaffe
 	</div>
 	
+	<form action="/action_page.php" method="get">
 	<div class="m-container2">
-	 	<div class="method-1"></div>
-		<div class="method-1"></div>
-		<div class="method-1"></div>
-		<div class="method-1"></div>
-	
+		<form action="/action_page.php" method="get">
+  			<input type="radio" id="filterkaffe" name="preference1" value="filterkaffe">
+  			<label for="filterkaffe">Filterkaffe</label><br>
+  			<input type="radio" id="stempelkaffe" name="preference1" value="stempelkaffe" checked="checked">
+  			<label for="stempelkaffe">Stempelkaffe</label><br>
+  			<input type="radio" id="espresso" name="preference1" value="espresso">
+  			<label for="espresso">Espresso</label><br>
+			<input type="radio" id="capuccino" name="preference1" value="cappucino">
+  			<label for="cappucino">Cappucino</label><br><br><br>
+		</form>
+		<form action="/action_page.php" method="get">
+  			<input type="radio" id="sød" name="preference1" value="sød">
+  			<label for="sød">Sød</label><br>
+  			<input type="radio" id="mild" name="preference1" value="mild" checked="checked">
+  			<label for="mild">Mild</label><br>
+  			<input type="radio" id="krydret" name="preference1" value="krydret">
+  			<label for="krydret">Krydret</label><br>
+			<input type="radio" id="stærk" name="preference1" value="stærk">
+  			<label for="stærk">Stærk</label><br><br><br>
+		</form>
 	</div>
+		<input type="submit" value="Bestil" style="margin-left: auto; margin-right: auto; font-size: 20px">
+	</form>
 	
-	<a href="#" class="coffeebutton" style="margin-left: auto; margin-right: auto; font-size: 20px">Bestil</a>
+	
 	
 	<div class="footer">
   	<div class="footer-container">
