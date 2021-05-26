@@ -236,7 +236,7 @@ font-family: classico-urw, sans-serif;
   user-select: none;
 }
 
-/* Hide default checkbox */
+/* Hide checkbox */
 .filter-container input {
   position: absolute;
   opacity: 0;
