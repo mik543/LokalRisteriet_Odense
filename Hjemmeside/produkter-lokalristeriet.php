@@ -41,7 +41,7 @@
 <div class="p-content">
 
   <div class="filtr-row">
-    <div class="col-3 menu">
+    <div id="sidebar" class="col-3 menu">
       <ul>
       <li>
         <h3>Produktkategori</h3>

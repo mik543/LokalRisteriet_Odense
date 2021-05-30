@@ -279,6 +279,11 @@ html {
     border: 1px solid white;
     outline: 3px solid #3F2E29;
     color: white;
-    margin: 5px auto;  }
+    margin: 5px auto;
+  }
+
+  #sidebar {
+    display: none;
+  }
 
 }
