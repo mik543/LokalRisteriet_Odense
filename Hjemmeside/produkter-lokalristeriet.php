@@ -130,11 +130,8 @@
       </div>
     </div>
 
-
   </div>
 </div>
-
-
 
 <footer class="footer-row">
   <div class="footer-content">
