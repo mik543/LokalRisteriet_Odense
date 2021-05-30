@@ -9,8 +9,6 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style-about.css">
 <link rel="stylesheet" href="css/product-style.css">
-
-
 <script src="script/script.js"></script>
 </head>
 

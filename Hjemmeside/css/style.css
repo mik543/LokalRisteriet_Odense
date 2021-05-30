@@ -30,6 +30,7 @@ font-family: classico-urw, sans-serif;
   color: white;
 	text-decoration: underline;
 	text-underline-position: under;
+  v
 }
 
 .topnav .icon {
@@ -57,6 +58,7 @@ font-family: classico-urw, sans-serif;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
