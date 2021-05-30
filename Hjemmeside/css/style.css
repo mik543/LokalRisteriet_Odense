@@ -30,7 +30,6 @@ font-family: classico-urw, sans-serif;
   color: white;
 	text-decoration: underline;
 	text-underline-position: under;
-  v
 }
 
 .topnav .icon {
@@ -39,7 +38,7 @@ font-family: classico-urw, sans-serif;
 }
 
 @media screen and (max-width: 1300px) {
-  .topnav: {
+  .topnav {
     background-color: #3F2E29;
     height: 100%;
   }
@@ -89,6 +88,7 @@ font-family: classico-urw, sans-serif;
 
 @media screen and (max-width: 1300px) {
   .header-text h1 {
+}
 }
 /*END TOPNAV*/
 
@@ -278,3 +278,4 @@ input[type=submit]:hover {
 }
 
 /* Månedens Kaffe slut */
+	
