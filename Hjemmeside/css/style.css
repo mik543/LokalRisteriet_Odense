@@ -38,11 +38,6 @@ font-family: classico-urw, sans-serif;
 }
 
 @media screen and (max-width: 1300px) {
-  .topnav {
-    background-color: #3F2E29;
-    height: 100%;
-  }
-
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
