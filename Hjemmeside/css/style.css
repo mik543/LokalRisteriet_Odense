@@ -216,83 +216,12 @@ font-family: classico-urw, sans-serif;
   border: 1px solid white;
   outline: 3px solid #3F2E29;
 	color: white;
-	margin: 10px;
+	margin: 10px auto;
 }
 
 .button:hover {
 	opacity: 0.9
 }
-/*Filter section*/
-.filter-container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 20px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/* Hide default checkbox */
-.filter-container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/*Create a custom checkbox */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: white;
-	border-radius:1px;
-	border: solid 0.1px;
-	border-color: #3F2E29;
-}
-
-/* Hover checkbox */
-.filter-container:hover input ~ .checkmark {
-  background-color: white;
-}
-
-/* Background for checkmark*/
-.filter-container input:checked ~ .checkmark {
-  background-color: #3F2E29;
-}
-
-/* Create checkmark*/
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-/* Show checkmark */
-.filter-container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Style checkmark*/
-.filter-container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-/*Slut Filtersektion*/
 
 /*PRODUKTSIDE slut*/
 
