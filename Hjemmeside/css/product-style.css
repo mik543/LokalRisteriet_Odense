@@ -152,6 +152,8 @@ html {
   float: left;
   width: 25%;
   padding: 20px;
+  height: 37.5rem;
+
 }
 
 /* Remove extra left and right margins, due to padding in columns */
@@ -170,10 +172,19 @@ html {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  height: 100%;
+
 }
 
 .product-card img{
   width: 100%;
+}
+
+.desc-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
 }
 
 .product-text {

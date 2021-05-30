@@ -216,7 +216,7 @@ font-family: classico-urw, sans-serif;
   border: 1px solid white;
   outline: 3px solid #3F2E29;
 	color: white;
-	margin: 10px;
+	margin: 10px auto;
 }
 
 .button:hover {
@@ -333,5 +333,3 @@ input[type=submit]:hover {
 }
 
 /* Månedens Kaffe slut */
-
-
