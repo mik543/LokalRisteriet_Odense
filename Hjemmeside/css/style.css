@@ -92,6 +92,22 @@ font-family: classico-urw, sans-serif;
 }
 /*END TOPNAV*/
 
+/* HEADER INDEX PAGE*/
+
+.header-text{
+	text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+@media screen and (max-width: 1300px) {
+  .header-text h1 {
+}
+}
+
 /* frontpage start */
 .backimg{
 	background-image: url("../img/Backimg.png");
@@ -124,6 +140,11 @@ font-family: classico-urw, sans-serif;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	font-family: Classico URW;
+}
+
+iframe {
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 /* END FRONTPAGE */
 
@@ -278,4 +299,3 @@ input[type=submit]:hover {
 }
 
 /* Månedens Kaffe slut */
-	
