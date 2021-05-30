@@ -149,7 +149,7 @@
 
     <div class="footer-column">
     <h3>Kontakt</h3>
-      <li>Tlf: +45 12 34 56 78</li>
+      <li>Tlf: +45 22 80 53 32</li>
       <li>Email: lokalristeeriet@kaffe.dk</li>
       <li>Adresse: Tolderlundsvej 1, st. th, 5000 Odense</li>
     </div>
