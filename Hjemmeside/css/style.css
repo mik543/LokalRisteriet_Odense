@@ -142,8 +142,8 @@ font-family: classico-urw, sans-serif;
 	font-family: Classico URW;
 }
 
-iframe {
-  padding-top: 200px;
+.video {
+  padding-top: 500px;
   padding-bottom: 100px;
 }
 /* END FRONTPAGE */
