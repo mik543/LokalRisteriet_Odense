@@ -7,7 +7,7 @@ font-family: classico-urw, sans-serif;
 }
 
 /* START SIDEN - OM LOKALRISTERIET*/
-/*OM SEKTION*/
+/*OM LOKALRISTERIET*/
 .page-content {
   width: 80vw;
   margin: 0 auto;
@@ -19,7 +19,7 @@ font-family: classico-urw, sans-serif;
   text-align: center;
 }
 
-/*OM SEKTION*/
+
 .about-column {
   float: left;
   width: 60%;
@@ -27,7 +27,7 @@ font-family: classico-urw, sans-serif;
 }
 
 .about-row {
-  padding: 30px 0 80px 0;
+  padding: 1.875rem 0 5rem 0;
 }
 
 .about-row:after {
@@ -55,7 +55,7 @@ font-family: classico-urw, sans-serif;
 
   .about-img {
     width: 100%;
-    margin: 7px;
+    margin: 0.438;
   }
 }
 
@@ -66,12 +66,12 @@ font-family: classico-urw, sans-serif;
   width: 100%;
   justify-content: center;
   margin: 0 auto;
-  padding: 30px 0 80px 0;
+  padding: 1.875rem 0 5rem 0;
 }
 
 .value-item {
   width: 20%;
-  padding: 30px;
+  padding: 1.875;
   box-sizing: border-box;
 }
 
@@ -91,13 +91,13 @@ font-family: classico-urw, sans-serif;
   grid-template-columns: auto auto auto;
   display: block;
   width: 100%;
-  padding: 5px;
+  padding: 0.313;
   margin: 0;
   box-sizing: border-box;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 0.938;
   text-align: center;
 }
 }
@@ -110,7 +110,7 @@ h3 {
 }
 
 .history-row {
-  padding: 30px 0 80px 0;
+  padding: 1.875rem 0 5rem 0;
 }
 
 .history-row:after {
@@ -129,7 +129,7 @@ h3 {
   float: left;
   object-fit: cover;
   box-sizing: border-box;
-
+  padding-right: 1,875rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -140,7 +140,7 @@ h3 {
 
   .history-img {
     width: 100%;
-    margin: 7px;
+    margin: 0.438rem;
   }
 }
 
@@ -148,12 +148,12 @@ h3 {
 .economy-column {
   float: left;
   width: 70%;
-  padding-left: 30px;
+  padding-left: 1.875rem;
   box-sizing: border-box;
 }
 
 .economy-row {
-  padding: 30px 0 80px 0;
+  padding: 1.875rem 0 5rem 0;
 }
 
 .economy-row:after {
@@ -176,7 +176,7 @@ h3 {
 
   .economy-img {
     width: 100%;
-    margin: 7px;
+    margin: 0.438;
   }
 }
 
