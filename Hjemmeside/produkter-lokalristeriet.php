@@ -21,7 +21,7 @@
     <a href="index.html"><img src="img/logo.png" alt="" style="width:20%;"></a>
     <a href="index.html" class="active">Forside</a>
     <a href="om-lokalristeriet.html">Om Lokalristeriet</a>
-    <a href="produkter.html">Produkter</a>
+    <a href="produkter-lokalristeriet.html">Produkter</a>
     <a href="maanedenskaffe.html">Månedenskaffe</a>
     <a href="kaffeguide.html">Kaffeguiden</a>
     <a href="kontakt.html">Kontakt</a>
