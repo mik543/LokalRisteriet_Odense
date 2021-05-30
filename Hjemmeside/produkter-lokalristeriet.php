@@ -33,7 +33,7 @@
   </div>
 
   <div class="header-text">
-    <h1>Vores produkter</h1>
+    <h1 id="headerid">Vores produkter</h1>
   </div>
 </div>
 <!-- END TOPNAV-->
